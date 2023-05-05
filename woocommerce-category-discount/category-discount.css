@@ -1,0 +1,40 @@
+/* Стили для элемента select */
+select#add_free_product {
+    font-size: 16px;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    max-width: 300px;
+    width: 100%;
+    display: inline-block;
+    padding: 0 10px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+/* Стили для элементов option */
+select#add_free_product option {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+/* Стили для кнопки */
+#add_free_product_button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#add_free_product_button:hover {
+    background-color: #555;
+}
